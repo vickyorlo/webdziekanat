@@ -1,0 +1,84 @@
+body {
+ padding-top:50px;
+}
+
+#masthead { 
+ min-height:250px;
+}
+
+#masthead h1 {
+ font-size: 30px;
+ line-height: 1;
+ padding-top:20px;
+}
+
+#masthead .well {
+ margin-top:8%;
+}
+
+.navbar {
+	 background-color:#800018;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  #masthead h1 {
+    font-size: 50px;
+  }
+}
+
+.navbar-nav > li > a:focus, .navbar-nav > li > a:hover {
+	background-color:#700018;
+	color: #ffffff;
+}
+
+.navbar-nav > li > a {
+	color:#ffffff;
+}
+
+.navbar-brand {
+	 color:#ffffff;
+}
+
+.affix-top,.affix{
+ position: static;
+}
+
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+    position: static;
+  	margin-top:30px;
+  	width:228px;
+  }
+  
+  #sidebar.affix {
+    position: fixed;
+    top:70px;
+    width:228px;
+  }
+}	
+
+#sidebar li.active {
+  border:0 #eee solid;
+  border-right-width:5px;
+  
+}
+
+.name {
+	font-family: "Times New Roman", Times, serif;
+	text-indent: 15	px;
+}
+
+ul ul.nav {
+	margin-left:25px;
+	background-color:#000000;
+}
+
+/*
+A Bootstrap 3.1 affix sidebar template
+from http://bootply.com
+
+license: MIT
+author: bootply.com
+*/
